@@ -42,7 +42,9 @@ namespace NativeGraphics.NET
             GL_ALPHA = 0x1906,
             GL_RG = 0x8227,
             GL_RGB = 0x1907,
+            GL_SRGB = 0x8C40,
             GL_RGBA = 0x1908,
+            GL_SRGB_ALPHA = 0x8C42,
 
             GL_ALPHA4 = 0x803B,
             GL_ALPHA8 = 0x803C,
@@ -52,6 +54,7 @@ namespace NativeGraphics.NET
             GL_RGB4 = 0x804F,
             GL_RGB5 = 0x8050,
             GL_RGB8 = 0x8051,
+            GL_SRGB8 = 0x8C41,
             GL_RGB10 = 0x8052,
             GL_RGB12 = 0x8053,
             GL_RGB16 = 0x8054,
@@ -59,6 +62,7 @@ namespace NativeGraphics.NET
             GL_RGBA4 = 0x8056,
             GL_RGB5_A1 = 0x8057,
             GL_RGBA8 = 0x8058,
+            GL_SRGB8_ALPHA8 = 0x8C43,
             GL_RGB10_A2 = 0x8059,
             GL_RGBA12 = 0x805A,
             GL_RGBA16 = 0x805B,
@@ -70,6 +74,7 @@ namespace NativeGraphics.NET
 
             GL_COMPRESSED_RGB = 0x84ED,
             GL_COMPRESSED_RGBA = 0x84EE,
+            GL_COMPRESSED_SRGB = 0x8C48,
 
             GL_COMPRESSED_RGB8_ETC2 = 0x9274,
             GL_COMPRESSED_SRGB8_ETC2 = 0x9275,
@@ -86,6 +91,12 @@ namespace NativeGraphics.NET
             GL_COMPRESSED_RGBA_S3TC_DXT1_EXT = 0x83F1,
             GL_COMPRESSED_RGBA_S3TC_DXT3_EXT = 0x83F2,
             GL_COMPRESSED_RGBA_S3TC_DXT5_EXT = 0x83F3,
+
+            GL_COMPRESSED_SRGB_S3TC_DXT1_EXT = 0x8C4C,
+
+            GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT1_EXT = 0x8C4D,
+            GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT3_EXT = 0x8C4E,
+            GL_COMPRESSED_SRGB_ALPHA_S3TC_DXT5_EXT = 0x8C4F,
 
             GL_COMPRESSED_RGBA_BPTC_UNORM_ARB = 0x8E8C, // should be BC7?
             GL_COMPRESSED_SRGB_ALPHA_BPTC_UNORM_ARB = 0x8E8D,
