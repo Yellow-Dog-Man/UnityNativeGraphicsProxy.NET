@@ -16,8 +16,8 @@ namespace NativeGraphics.NET
         public static extern void GL_PixelStoreInt(int name, int param);
 
         [DllImport("NativeGraphics")]
-        public static extern uint GL_GenTexture();    
-        
+        public static extern uint GL_GenTexture();
+
         [DllImport("NativeGraphics")]
         public static extern Error GL_GetError();
 
