@@ -2,6 +2,18 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <Company>Yellow Dog Man Studios</Company>
+    <Authors>Yellow Dog Man Studios</Authors>
+    <PackageId>YellowDogMan.UnityNativeGraphicsProxy.NET</PackageId>
+    <Description>TODO</Description>
+    <Copyright>Copyright (c) Yellow Dog Man Studios s.r.o. 2023</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Yellow-Dog-Man/UnityNativeGraphicsProxy.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectURL>https://github.com/Yellow-Dog-Man/UnityNativeGraphicsProxy.NET</PackageProjectURL>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A36D650E-C57C-4EDA-A256-CDECED574543}</ProjectGuid>
@@ -45,6 +57,7 @@
     <Compile Include="OpenGL.cs" />
     <Compile Include="OpenGL_Enums.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Images\icon.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
